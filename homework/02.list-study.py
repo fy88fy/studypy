@@ -45,4 +45,5 @@ print(list3)
 
 #5
 list3.extend("d")
+list3.extend(list2)
 print(list3)

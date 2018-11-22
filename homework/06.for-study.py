@@ -27,12 +27,36 @@ for a in range(1,5):
 print "Totol is %s" % sum
 print(list1)
 
+
+
+
+
 '''
 结果：
 Totol is 24
 [123, 124, 132, 134, 142, 143, 213, 214, 231, 234, 241, 243, 312, 314, 321, 324, 341, 342, 412, 413, 421, 423, 431, 432]
 
 '''
+#方法二
+
+i=0
+
+num=(1,2,3,4)
+for x in  num:
+
+       for y in num:
+
+           for z in num:
+
+               if x != y and  x != z and  y != z :
+
+                    print x*100+y*10+z
+
+                    i=i+1
+
+print "the total num is :%s" % i
+
+
 #------------------------------------------------------------------
 #2
 

@@ -17,3 +17,39 @@
 程序分析：采取逆向思维的方法,从后往前推断。
 '''
 
+#1
+for num in range(100):
+    # num = raw_input("please in put a number: ")
+    num=int(num)
+    if num <= 1:
+        pass
+        #print('这不是质数')
+    elif num == 2:
+        pass
+        #print('这是一个质数!')
+    else:
+        i=2
+        while i < num:
+            if num%i == 0:
+                pass
+                #print('这不是一个质数')
+                break
+            i += 1
+        else:
+            print num,('这是一个质数!')
+
+
+#
+i=0
+while n != 1:
+    n=n/2-1
+
+    i+=1
+    if i==10:
+        break
+        print n
+
+
+
+
+

@@ -39,13 +39,16 @@ for num in range(100):
             print num,('这是一个质数!')
 
 
-#
+#2
 y=1
 for i in range(1,10):
     x=(y+1)*2
     y=x
     if i == 9:
         print x
+
+#结果：1534
+
 
 
 

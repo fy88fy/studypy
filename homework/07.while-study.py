@@ -40,14 +40,13 @@ for num in range(100):
 
 
 #
-i=0
-while n != 1:
-    n=n/2-1
+y=1
+for i in range(1,10):
+    x=(y+1)*2
+    y=x
+    if i == 9:
+        print x
 
-    i+=1
-    if i==10:
-        break
-        print n
 
 
 
